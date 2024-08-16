@@ -39,6 +39,10 @@
     position: relative;
     grid-column: 2;
 
+    & a {
+      text-decoration: underline;
+    }
+
     &::before {
       content: '';
       display: block;

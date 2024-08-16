@@ -1,5 +1,5 @@
 import { Collapsible } from '@/components/Collapsible/Collapsible';
-import { Tag } from '@/components/Tag/Tag';
+import { IconTag } from '@/components/IconTag/IconTag';
 import { useData } from '@/hooks/useData';
 
 import { IExperience } from './Experience.types';
@@ -57,7 +57,7 @@ export const Experience = () => {
                 <ul className={styles.stack}>
                   {experience.stack.map((tech: string) => (
                     <li key={tech}>
-                      <Tag>{tech}</Tag>
+                      <IconTag name={tech} />
                     </li>
                   ))}
                 </ul>
