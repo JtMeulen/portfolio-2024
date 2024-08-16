@@ -1,4 +1,4 @@
-import globe from '@/icons/globe.svg';
+import { FaEnvelope, FaGithub, FaGlobe, FaLinkedin, FaPhoneAlt } from 'react-icons/fa';
 
 import styles from './About.module.scss';
 
@@ -17,21 +17,60 @@ export const About = () => {
 
       <h1>Joey ter Meulen</h1>
       <p>Web Developer</p>
-      <p>
-        <img src={globe} aria-hidden />
+      <p className={styles.location}>
+        <FaGlobe />
         Barcelona, Spain
       </p>
 
+      <ul className={styles.links}>
+        <li>
+          <a href="mailto:joeytermeulen@gmail.com" title="Send Joey ter Meulen an email">
+            <FaEnvelope />
+          </a>
+        </li>
+        <li>
+          <a
+            href="tel:+34 606 650 243"
+            title="Call Joey ter Meulen at +34 606 650 243"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaPhoneAlt />
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.linkedin.com/in/joey-ter-meulen-205365120/"
+            title="Visit Joey ter Meulen profile on LinkedIn"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaLinkedin />
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://github.com/JtMeulen"
+            title="Visit Joey ter Meulen profile on Github"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaGithub />
+          </a>
+        </li>
+      </ul>
+
       <h2>About</h2>
-      <p>
-        Hello 👋! My name is Joey, and I'm a Dutch frontend web developer living in Barcelona,
-        Spain. I have been coding as a hobby for many years, and in 2018, I officially joined the
-        development industry.
+      <p className={styles.description}>
+        Hello <span className={styles.wave}>👋</span>! My name is Joey, and I'm a Dutch frontend web
+        developer living in Barcelona, Spain. I have been coding as a hobby for many years, and in
+        2018, I officially joined the development industry.
         <br />
         <br />
-        Over the years, I have gained extensive experience in developing websites using React.js,
-        Node.js, and GraphQl. Recently, my focus has shifted towards developing design systems using
-        web components, specifically with Stencil.js and Lit.
+        Over the years, I have gained extensive experience in developing websites using{' '}
+        <em>React.js</em>, <em>Node.js</em>, and <em>GraphQl</em>. Recently, my focus has shifted
+        towards developing design systems using web components, specifically with{' '}
+        <em>Stencil.js</em> and <em>Lit</em>.
         <br />
         <br />
         With a passion for clean and efficient code, I strive to create user-friendly and visually

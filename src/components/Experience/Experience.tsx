@@ -25,7 +25,7 @@ export const Experience = () => {
                 <div className={styles.dot}></div>
                 <h3>
                   {experience.position} @{' '}
-                  <a href={experience.url} target="blank">
+                  <a href={experience.url} target="blank" rel="noopener noreferrer">
                     {experience.company}
                   </a>
                 </h3>

@@ -74,7 +74,8 @@
   margin: 1rem 0;
   list-style: none;
   display: flex;
-  gap: 0.5rem;
+  column-gap: 0.5rem;
+  row-gap: 0.7rem;
   flex-wrap: wrap;
   list-style-type: none;
 }

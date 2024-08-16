@@ -1,9 +1,34 @@
+.about {
+  & h1 {
+    font-size: 2rem;
+    margin-bottom: 0.3rem;
+  }
+
+  & h2 {
+    font-size: 1.4rem;
+    margin-bottom: 0.3rem;
+  }
+
+  & p {
+    margin: 0;
+  }
+
+  & .location {
+    display: flex;
+    column-gap: 0.4rem;
+    align-items: center;
+    margin-top: 0.3rem;
+    font-size: 0.9rem;
+  }
+}
+
 .avatar {
   margin: 3rem 0;
   width: min-content;
   position: relative;
 
   & img {
+    box-shadow: 0px 0px 400px 0px var(--color-primary);
     aspect-ratio: 1 / 1;
     width: 8rem;
     border-radius: 1rem;
@@ -78,5 +103,60 @@
     & .left {
       left: 0;
     }
+  }
+}
+
+.description {
+  & em {
+    font-weight: normal;
+    font-style: normal;
+    color: #88af3e;
+  }
+
+  & .wave {
+    animation-name: wave-animation;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+    transform-origin: 70% 70%;
+    display: inline-block;
+  }
+
+  @keyframes wave-animation {
+    0% {
+      transform: rotate(0deg);
+    }
+    10% {
+      transform: rotate(14deg);
+    }
+    20% {
+      transform: rotate(-8deg);
+    }
+    30% {
+      transform: rotate(14deg);
+    }
+    40% {
+      transform: rotate(-4deg);
+    }
+    50% {
+      transform: rotate(10deg);
+    }
+    60% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+}
+
+.links {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  padding: 0;
+  font-size: 1.3rem;
+
+  & a:hover {
+    box-shadow: 0 0 20px -4px var(--button-color-hover);
   }
 }
