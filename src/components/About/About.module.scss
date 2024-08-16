@@ -1,14 +1,4 @@
 .about {
-  & h1 {
-    font-size: 2rem;
-    margin-bottom: 0.3rem;
-  }
-
-  & h2 {
-    font-size: 1.4rem;
-    margin-bottom: 0.3rem;
-  }
-
   & p {
     margin: 0;
   }
@@ -29,6 +19,7 @@
 
   & img {
     box-shadow: 0px 0px 400px 0px var(--color-primary);
+    -webkit-box-shadow: 0px 0px 400px 0px var(--color-primary);
     aspect-ratio: 1 / 1;
     width: 8rem;
     border-radius: 1rem;
@@ -110,7 +101,7 @@
   & em {
     font-weight: normal;
     font-style: normal;
-    color: var(--primary-600);
+    color: var(--font-color-500);
   }
 
   & .wave {

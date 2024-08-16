@@ -7,9 +7,18 @@
     "type": "Hybrid",
     "startYear": "2021",
     "endYear": "2024",
-    "summary": "Within Rabobank, my team is responsible for the company-wide Design System (used by over 150 frontend teams) built with StencilJS (currently migrating to Lit) and Storybook. My role in the team is maintaining the styling aspects of the system, with an emphasis on introducing dark-mode for 90+ components and the related styling API. We have overhauled the complete (legacy) UI library to be themable, a project that required me to assist various teams with implementing the new features. Support is a great focus point too, where we assist, educate, and answer any questions about our product to other developers within the company.",
-    "responsibilities": ["Highlight 1", "Highlight 2"],
-    "achievements": ["Achievement 1", "Achievement 2"],
+    "summary": "My team and I were responsible for maintaining and expanding the component and styling library for the Rabobank - one of the largest banks in the Netherlands. The Design System is used by over 150 different frontend teams.",
+    "responsibilities": [
+      "Implementing new web components and styling features",
+      "Providing technical support for other developers that use our library",
+      "Maintinging a zero-bug policy for the library",
+      "Writing extensive documentation for all features in the library",
+      "Bi-weekly demos, presentations and workshops for users and stakeholders"
+    ],
+    "achievements": [
+      "Implementing dark-mode theme for the complete component and styling library",
+      "Complete overhaul of legacy styling library to a new tokenized structure for theming"
+    ],
     "stack": [
       "StencilJS",
       "Lit",

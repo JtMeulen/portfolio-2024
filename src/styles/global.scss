@@ -54,7 +54,9 @@
 :root {
   --background-color: var(--surface-100);
 
-  --font-color: var(--font-color-100);
+  --heading-color: var(--font-color-100);
+  --font-color: var(--font-color-200);
+  --font-color-on-surface: $font-color-100;
 
   --button-color: var(--primary-300);
   --button-color-hover: var(--primary-200);
@@ -95,9 +97,27 @@ body {
   }
 }
 
+h1 {
+  font-size: 2rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--font-color-100);
+  margin-bottom: 0.3rem;
+}
+
 a {
   color: var(--link-color);
   text-decoration: none;
+
+  &:visited {
+    color: var(--link-color);
+  }
 
   &:hover {
     color: var(--link-color-hover);
@@ -106,9 +126,5 @@ a {
 
   &:active {
     color: var(--link-color-active);
-  }
-
-  &:visited {
-    color: var(--link-color);
   }
 }

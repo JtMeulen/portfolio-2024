@@ -29,15 +29,15 @@ export const Experience = () => {
                     {experience.company}
                   </a>
                 </h3>
-                <p>
+                <p className={styles.location}>
                   {experience.location} - {experience.type}
                 </p>
-                <h4>Summary</h4>
+                <h4>Summary:</h4>
                 <ul className={styles.summary}>
                   <li>{experience.summary}</li>
                 </ul>
                 <Collapsible>
-                  <h4>Responsibilities</h4>
+                  <h4>Responsibilities:</h4>
                   {experience.responsibilities && (
                     <ul className={styles.responsibilities}>
                       {experience.responsibilities.map((responsibility: string) => (
@@ -45,7 +45,7 @@ export const Experience = () => {
                       ))}
                     </ul>
                   )}
-                  <h4>Achievements</h4>
+                  <h4>Achievements:</h4>
                   {experience.achievements && (
                     <ul className={styles.achievements}>
                       {experience.achievements.map((achievement: string) => (

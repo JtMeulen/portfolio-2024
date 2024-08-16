@@ -1,5 +1,5 @@
 .content {
-  max-height: 90px;
+  max-height: 75px;
   overflow: hidden;
   position: relative;
   // TODO: feels very choppy, look into alternate ways to animate
@@ -10,7 +10,7 @@
     transition: max-height 0.25s ease-in;
   }
 
-  &::after {
+  &:not(.expanded)::after {
     content: '';
     display: block;
     position: absolute;
@@ -22,21 +22,22 @@
   }
 }
 
-// TODO: text button instead
 .btn {
-  background-color: var(--button-color);
+  text-decoration: underline;
+  background: none;
   color: var(--font-color);
   border: none;
-  border-radius: 4px;
-  padding: 8px 16px;
-  margin-block: 8px;
+  margin-block: 0.8rem;
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
   cursor: pointer;
 
   &:hover {
-    box-shadow: 0 0 20px -4px var(--button-color-hover);
+    color: var(--primary-500);
   }
 
   &:active {
-    background-color: var(--button-color-active);
+    color: var(--primary-300);
   }
 }
