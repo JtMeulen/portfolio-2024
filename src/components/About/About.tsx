@@ -18,7 +18,7 @@ export const About = () => {
       <h1>Joey ter Meulen</h1>
       <p>Web Developer</p>
       <p>
-        <img src={globe} />
+        <img src={globe} aria-hidden />
         Barcelona, Spain
       </p>
 

@@ -1,0 +1,42 @@
+.content {
+  max-height: 90px;
+  overflow: hidden;
+  position: relative;
+  // TODO: feels very choppy, look into alternate ways to animate
+  transition: max-height 0.15s ease-out;
+
+  &.expanded {
+    max-height: 2000px;
+    transition: max-height 0.25s ease-in;
+  }
+
+  &::after {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 40px;
+    background: linear-gradient(transparent, var(--background-color));
+  }
+}
+
+// TODO: text button instead
+.btn {
+  background-color: var(--button-color);
+  color: var(--font-color);
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  margin-block: 8px;
+  cursor: pointer;
+
+  &:hover {
+    box-shadow: 0 0 20px -4px var(--button-color-hover);
+  }
+
+  &:active {
+    background-color: var(--button-color-active);
+  }
+}

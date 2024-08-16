@@ -1,3 +1,4 @@
+import { Collapsible } from '@/components/Collapsible/Collapsible';
 import { Tag } from '@/components/Tag/Tag';
 import { useData } from '@/hooks/useData';
 
@@ -35,24 +36,24 @@ export const Experience = () => {
                 <ul className={styles.summary}>
                   <li>{experience.summary}</li>
                 </ul>
-                {/* <Collapsible> */}
-                <h4>Responsibilities</h4>
-                {experience.responsibilities && (
-                  <ul className={styles.responsibilities}>
-                    {experience.responsibilities.map((responsibility: string) => (
-                      <li key={responsibility}>{responsibility}</li>
-                    ))}
-                  </ul>
-                )}
-                <h4>Achievements</h4>
-                {experience.achievements && (
-                  <ul className={styles.achievements}>
-                    {experience.achievements.map((achievement: string) => (
-                      <li key={achievement}>{achievement}</li>
-                    ))}
-                  </ul>
-                )}
-                {/* </Collapsible> */}
+                <Collapsible>
+                  <h4>Responsibilities</h4>
+                  {experience.responsibilities && (
+                    <ul className={styles.responsibilities}>
+                      {experience.responsibilities.map((responsibility: string) => (
+                        <li key={responsibility}>{responsibility}</li>
+                      ))}
+                    </ul>
+                  )}
+                  <h4>Achievements</h4>
+                  {experience.achievements && (
+                    <ul className={styles.achievements}>
+                      {experience.achievements.map((achievement: string) => (
+                        <li key={achievement}>{achievement}</li>
+                      ))}
+                    </ul>
+                  )}
+                </Collapsible>
                 <ul className={styles.stack}>
                   {experience.stack.map((tech: string) => (
                     <li key={tech}>
