@@ -1,0 +1,50 @@
+[
+  {
+    "company": "Rabobank",
+    "url": "https://www.rabobank.nl/",
+    "position": "Frontend Developer - Design Systems",
+    "location": "Barcelona, Spain",
+    "type": "Hybrid",
+    "startYear": "2021",
+    "endYear": "2024",
+    "summary": "Within Rabobank, my team is responsible for the company-wide Design System (used by over 150 frontend teams) built with StencilJS (currently migrating to Lit) and Storybook. My role in the team is maintaining the styling aspects of the system, with an emphasis on introducing dark-mode for 90+ components and the related styling API. We have overhauled the complete (legacy) UI library to be themable, a project that required me to assist various teams with implementing the new features. Support is a great focus point too, where we assist, educate, and answer any questions about our product to other developers within the company.",
+    "responsibilities": ["Highlight 1", "Highlight 2"],
+    "achievements": ["Achievement 1", "Achievement 2"],
+    "stack": [
+      "StencilJS",
+      "Lit",
+      "TypeScript",
+      "Sass",
+      "Storybook",
+      "WebdriverIO",
+      "Jest",
+      "Azure DevOps"
+    ]
+  },
+  {
+    "company": "Zeelo",
+    "url": "https://www.zeelo.co/",
+    "position": "Frontend Developer",
+    "location": "Barcelona, Spain",
+    "type": "Remote",
+    "startYear": "2021",
+    "endYear": "2021",
+    "summary": "Zeelo is a bus sharing company functioning as a SaaS platform. My main focus while working here was on improving and adding features to the internal tools, which are used on a daily basis by operators. The platform is built with React and uses an inhouse UI library created with Styled-Components powered by Storybook.",
+    "responsibilities": ["Highlight 1", "Highlight 2"],
+    "achievements": ["Achievement 1", "Achievement 2"],
+    "stack": ["ReactJS", "TypeScript", "NodeJS", "Storybook"]
+  },
+  {
+    "company": "LeoVegas",
+    "url": "https://www.leovegas.com/",
+    "position": "Javascript Engineer",
+    "location": "Stockholm, Sweden",
+    "type": "On-site",
+    "startYear": "2018",
+    "endYear": "2020",
+    "summary": "LeoVegas is an online casino provider. My daily job includes developing new features, especially to enhance the game experience for players. I work with React.js, Node.js and GraphQL on a daily basis. Other responsibilities include writing tests for the features we develop, maintain and bug-fix any feature previously released, and close collaboration between designers and BackEnd developers. In my nearly 3 years at LeoVegas, I have gone from junior to senior within the company. I functioned as interim team-lead for 4 months, where I guided the project from start to finish while coding and managing team members and stakeholders.",
+    "responsibilities": ["Highlight 1", "Highlight 2"],
+    "achievements": ["Achievement 1", "Achievement 2"],
+    "stack": ["ReactJS", "TypeScript", "NodeJS", "Storybook", "GraphQL"]
+  }
+]

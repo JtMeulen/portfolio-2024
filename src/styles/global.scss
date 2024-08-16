@@ -54,7 +54,6 @@
 :root {
   --background-color: var(--surface-100);
 
-  --heading-color: var(--font-color-500);
   --font-color: var(--font-color-100);
 
   --button-color: var(--primary-300);
@@ -65,6 +64,9 @@
   --link-color-hover: var(--primary-200);
   --link-color-active: var(--primary-400);
   --link-color-visited: var(--primary-500);
+
+  --color-primary: var(--primary-300);
+  --color-divider: var(--primary-500);
 }
 
 * {
@@ -78,15 +80,24 @@ body {
 
   background-color: var(--background-color);
   color: var(--font-color);
-}
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  color: var(--heading-color);
+  & main {
+    max-width: 1280px;
+    margin: 3rem auto;
+    padding: 0 1rem;
+  }
+
+  & nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0.5rem 0;
+    background: var(--background-color);
+  }
 }
 
 a {
@@ -103,6 +114,6 @@ a {
   }
 
   &:visited {
-    color: var(--link-color-visited);
+    color: var(--link-color);
   }
 }
