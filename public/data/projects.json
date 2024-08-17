@@ -1,7 +1,7 @@
 [
   {
     "name": "ScubiBranches",
-    "url": "https://www.dive-log-next.vercel.app/",
+    "url": "https://dive-log-next.vercel.app/",
     "description": "A scuba dive log appliction that allows users to log their dives, view their dive history, and is focused on Nudibranches!",
     "notes": [
       "Implementing new web components and styling features",

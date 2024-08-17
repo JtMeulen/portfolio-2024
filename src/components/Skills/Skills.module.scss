@@ -1,0 +1,19 @@
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 1rem;
+  column-gap: 3rem;
+  list-style: none;
+  padding: 0;
+  margin-block-end: 4rem;
+
+  & li {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+
+    & svg {
+      color: var(--color-primary);
+    }
+  }
+}
