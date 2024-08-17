@@ -1,9 +1,14 @@
 import {
   SiAzuredevops,
+  SiCss3,
   SiGit,
   SiGraphql,
+  SiHtml5,
+  SiJavascript,
   SiJest,
   SiLit,
+  SiMongodb,
+  SiNextdotjs,
   SiNodedotjs,
   SiReact,
   SiSass,
@@ -21,22 +26,25 @@ export const Skills = () => {
       <h2>Skills</h2>
       <ul className={styles.skills}>
         <li>
+          <SiHtml5 /> HTML
+        </li>
+        <li>
+          <SiCss3 /> CSS
+        </li>
+        <li>
+          <SiJavascript /> JavaScript
+        </li>
+        <li>
           <SiReact /> React
+        </li>
+        <li>
+          <SiNextdotjs /> Next.js
         </li>
         <li>
           <SiTypescript /> TypeScript
         </li>
         <li>
           <SiSass /> Sass
-        </li>
-        <li>
-          <SiStorybook /> Storybook
-        </li>
-        <li>
-          <SiWebdriverio /> WebdriverIO
-        </li>
-        <li>
-          <SiJest /> Jest
         </li>
         <li>
           <SiLit /> Lit
@@ -49,6 +57,18 @@ export const Skills = () => {
         </li>
         <li>
           <SiGraphql /> GraphQL
+        </li>
+        <li>
+          <SiMongodb /> MongoDB
+        </li>
+        <li>
+          <SiStorybook /> Storybook
+        </li>
+        <li>
+          <SiWebdriverio /> WebdriverIO
+        </li>
+        <li>
+          <SiJest /> Jest
         </li>
         <li>
           <SiAzuredevops /> Azure

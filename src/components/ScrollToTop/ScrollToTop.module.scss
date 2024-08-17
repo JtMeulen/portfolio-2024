@@ -1,0 +1,21 @@
+.btn {
+  position: fixed;
+  bottom: 0.5rem;
+  right: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-primary);
+  color: var(--color-font-on-surface);
+  border: none;
+  font-size: 2rem;
+  height: 3rem;
+  width: 3rem;
+  padding-block-end: 0.25rem; // Visually center the icon
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
