@@ -1,11 +1,14 @@
-import { BrowserRouter } from 'react-router-dom';
+import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
 
-import { Layout } from '@/Layout';
+import { MainPage } from '@/pages/Main';
 
 export const App = () => {
   return (
     <BrowserRouter>
-      <Layout />
+      <Routes>
+        <Route path="/" element={<MainPage />} />
+        <Route path="*" element={<Navigate to="/" />} />
+      </Routes>
     </BrowserRouter>
   );
 };

@@ -1,0 +1,38 @@
+[
+  {
+    "name": "ScubiBranches",
+    "url": "https://www.dive-log-next.vercel.app/",
+    "description": "A scuba dive log appliction that allows users to log their dives, view their dive history, and is focused on Nudibranches!",
+    "notes": [
+      "Implementing new web components and styling features",
+      "Providing technical support for other developers that use our library"
+    ]
+  },
+  {
+    "name": "SandraDCM Portfolio",
+    "url": "https://www.sandradcm.com/",
+    "description": "A portfolio for my wife, who is a talented 2d lead artist. The website showcases her work and provides a way for potential clients to contact her.",
+    "notes": [
+      "Implementing new web components and styling features",
+      "Providing technical support for other developers that use our library"
+    ]
+  },
+  {
+    "name": "Electron Photo Sorter",
+    "url": "https://github.com/JtMeulen/electron-photo-sorter",
+    "description": "An electron based application that sorts your photos based on the date they were taken.",
+    "notes": [
+      "Implementing new web components and styling features",
+      "Providing technical support for other developers that use our library"
+    ]
+  },
+  {
+    "name": "JRC Component Library",
+    "url": "https://github.com/JtMeulen/jrc",
+    "description": "My own component library build for fun and for testing purposes.",
+    "notes": [
+      "Implementing new web components and styling features",
+      "Providing technical support for other developers that use our library"
+    ]
+  }
+]

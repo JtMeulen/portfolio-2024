@@ -16,7 +16,7 @@ export const Collapsible = ({ children }: { children: React.ReactNode }) => {
 
       <button className={`${styles.btn} ${expanded ? styles.expanded : null}`} onClick={toggle}>
         {expanded ? 'Show less' : 'Show more'}
-        {expanded ? <FaChevronUp /> : <FaChevronDown />}
+        {expanded ? <FaChevronUp aria-hidden /> : <FaChevronDown aria-hidden />}
       </button>
     </>
   );

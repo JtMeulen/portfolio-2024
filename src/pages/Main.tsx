@@ -1,7 +1,7 @@
 import { About } from '@/components/About/About';
 import { Experience } from '@/components/Experience/Experience';
+import { Projects } from '@/components/Projects/Projects';
 
-// import { Projects } from '@/components/Projects';
 // import { Skills } from '@/components/Skills';
 import styles from './Main.module.scss';
 
@@ -13,7 +13,7 @@ export const MainPage = () => {
       </section>
       <section className={styles.content}>
         <Experience />
-        {/* <Projects /> */}
+        <Projects />
         {/* <Skills /> */}
       </section>
     </main>

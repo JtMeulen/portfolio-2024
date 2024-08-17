@@ -113,7 +113,8 @@ h6 {
 
 a {
   color: var(--link-color);
-  text-decoration: none;
+  text-decoration: underline;
+  text-decoration-style: dotted;
 
   &:visited {
     color: var(--link-color);
@@ -121,7 +122,6 @@ a {
 
   &:hover {
     color: var(--link-color-hover);
-    text-decoration: underline;
   }
 
   &:active {

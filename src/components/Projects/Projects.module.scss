@@ -1,0 +1,36 @@
+.projectsList {
+  padding: 0;
+  font-size: 0.9rem;
+  display: grid;
+  list-style: none;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+  gap: 1rem;
+}
+
+.project {
+  background: var(--surface-200);
+  border: 1px solid var(--color-divider);
+  border-radius: 0.5rem;
+  padding: 1rem;
+
+  & h3 {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  & .notes {
+    list-style-type: disc;
+    margin-inline-start: 1.2em;
+    padding: 0;
+    color: var(--color-font-on-surface);
+  }
+}
+
+@media (max-width: 768px) {
+  .projectsList {
+    grid-template-columns: 1fr;
+  }
+}
