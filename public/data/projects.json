@@ -4,8 +4,8 @@
     "url": "https://dive-log-next.vercel.app/",
     "description": "A scuba dive log appliction that allows users to log their dives, view their dive history, and is focused on Nudibranches!",
     "notes": [
-      "Implementing new web components and styling features",
-      "Providing technical support for other developers that use our library"
+      "Build with Next.js v14, using Server Actions with a MongoDB database",
+      "Next-Auth with Google OAuth for authentication"
     ]
   },
   {
@@ -13,8 +13,8 @@
     "url": "https://www.sandradcm.com/",
     "description": "A portfolio for my wife, who is a talented 2d lead artist. The website showcases her work and provides a way for potential clients to contact her.",
     "notes": [
-      "Implementing new web components and styling features",
-      "Providing technical support for other developers that use our library"
+      "React based website with a custom design and animations",
+      "Lots of image hosting and loading through Google Cloud Storage"
     ]
   },
   {
@@ -22,8 +22,8 @@
     "url": "https://github.com/JtMeulen/electron-photo-sorter",
     "description": "An electron based application that sorts your photos based on the date they were taken.",
     "notes": [
-      "Implementing new web components and styling features",
-      "Providing technical support for other developers that use our library"
+      "Electron based application using native file system API",
+      "Pure JS, HTML and CSS only"
     ]
   },
   {
@@ -31,8 +31,8 @@
     "url": "https://github.com/JtMeulen/jrc",
     "description": "My own component library build for fun and for testing purposes.",
     "notes": [
-      "Implementing new web components and styling features",
-      "Providing technical support for other developers that use our library"
+      "Using React and Storybook to create components and custom styling, available through NPM",
+      "Theming is available through CSS variables."
     ]
   }
 ]

@@ -14,8 +14,8 @@ export const MainPage = () => {
       </section>
       <section className={styles.content}>
         <Experience />
-        <Projects />
         <Skills />
+        <Projects />
       </section>
 
       <ScrollToTop />

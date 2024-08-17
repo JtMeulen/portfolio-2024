@@ -8,14 +8,15 @@
   background-color: var(--color-primary);
   color: var(--color-font-on-surface);
   border: none;
-  font-size: 2rem;
-  height: 3rem;
+  font-size: 1rem;
   width: 3rem;
+  aspect-ratio: 1 / 1;
   padding-block-end: 0.25rem; // Visually center the icon
   border-radius: 50%;
   cursor: pointer;
+  transition: transform ease-in-out 0.3s;
 }
 
 .hidden {
-  display: none;
+  transform: translateY(100px);
 }
