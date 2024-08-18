@@ -56,7 +56,7 @@
     "type": "On-site",
     "startYear": "2018",
     "endYear": "2020",
-    "summary": "LeoVegas is an online casino provider hosting slot games, live-casino and sportsbetting. The platform is a ReactJS application with a NodeKJS backend connected through a GraphQL API layer.",
+    "summary": "LeoVegas is an online casino provider hosting slot games, live-casino and sportsbetting. The platform is a ReactJS application with a NodeJS backend connected through a GraphQL API layer.",
     "responsibilities": [
       "Maintaining and improving the slot games and live-casino user interfaces for various providers",
       "Close collaboration with backend developers to improve the API layer",

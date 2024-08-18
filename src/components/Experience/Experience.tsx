@@ -39,21 +39,25 @@ export const Experience = () => {
                   <li>{experience.summary}</li>
                 </ul>
                 <Collapsible>
-                  <h4>Responsibilities:</h4>
                   {experience.responsibilities && (
-                    <ul className={styles.responsibilities}>
-                      {experience.responsibilities.map((responsibility: string) => (
-                        <li key={responsibility}>{responsibility}</li>
-                      ))}
-                    </ul>
+                    <>
+                      <h4>Responsibilities:</h4>
+                      <ul className={styles.responsibilities}>
+                        {experience.responsibilities.map((responsibility: string) => (
+                          <li key={responsibility}>{responsibility}</li>
+                        ))}
+                      </ul>
+                    </>
                   )}
-                  <h4>Achievements:</h4>
                   {experience.achievements && (
-                    <ul className={styles.achievements}>
-                      {experience.achievements.map((achievement: string) => (
-                        <li key={achievement}>{achievement}</li>
-                      ))}
-                    </ul>
+                    <>
+                      <h4>Achievements:</h4>
+                      <ul className={styles.achievements}>
+                        {experience.achievements.map((achievement: string) => (
+                          <li key={achievement}>{achievement}</li>
+                        ))}
+                      </ul>
+                    </>
                   )}
                 </Collapsible>
                 <ul className={styles.stack}>

@@ -30,7 +30,7 @@
 
     & div {
       position: absolute;
-      background: var(--color-divider);
+      background: var(--border-color);
     }
 
     & .left,
@@ -99,7 +99,7 @@
   & em {
     font-weight: normal;
     font-style: normal;
-    color: var(--font-color-500);
+    color: var(--primary-300);
   }
 
   & .wave {

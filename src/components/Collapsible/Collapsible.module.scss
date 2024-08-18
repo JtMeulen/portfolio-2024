@@ -1,14 +1,8 @@
 .content {
-  max-height: 75px;
   overflow: hidden;
   position: relative;
-  // TODO: feels very choppy, look into alternate ways to animate
-  transition: max-height 0.15s ease-out;
-
-  &.expanded {
-    max-height: 2000px;
-    transition: max-height 0.25s ease-in;
-  }
+  // Height is controlled in the component itself
+  transition: height 0.2s ease-in-out;
 
   &:not(.expanded)::after {
     content: '';
@@ -34,7 +28,7 @@
   cursor: pointer;
 
   &:hover {
-    color: var(--primary-500);
+    color: var(--primary-400);
   }
 
   &:active {
