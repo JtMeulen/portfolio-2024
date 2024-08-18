@@ -18,7 +18,9 @@ export const Experience = () => {
             <li key={experience.company} className={styles.experience}>
               <div className={styles.timePeriod}>
                 <p>
-                  {experience.startYear} - {experience.endYear}
+                  <strong>
+                    {experience.startYear} - {experience.endYear}
+                  </strong>
                 </p>
               </div>
               <div className={styles.content}>

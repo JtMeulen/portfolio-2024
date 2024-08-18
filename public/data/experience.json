@@ -9,10 +9,12 @@
     "endYear": "2024",
     "summary": "My team and I were responsible for maintaining and expanding the component and styling library for the Rabobank - one of the largest banks in the Netherlands. The Design System is used by over 150 different frontend teams.",
     "responsibilities": [
-      "Implementing new web components and styling features",
+      "Implementing new web components and styling features with close collaboration with the design team",
       "Providing technical support for other developers that use our library",
-      "Maintinging a zero-bug policy for the library",
+      "Creating and maintaining CI/CD pipelines in Azure DevOps",
+      "Building developer tools to improve the developer experience",
       "Writing extensive documentation for all features in the library",
+      "Maintinging a zero-bug policy for the library",
       "Bi-weekly demos, presentations and workshops for users and stakeholders"
     ],
     "achievements": [
@@ -38,9 +40,12 @@
     "type": "Remote",
     "startYear": "2021",
     "endYear": "2021",
-    "summary": "Zeelo is a bus sharing company functioning as a SaaS platform. My main focus while working here was on improving and adding features to the internal tools, which are used on a daily basis by operators. The platform is built with React and uses an inhouse UI library created with Styled-Components powered by Storybook.",
-    "responsibilities": ["Highlight 1", "Highlight 2"],
-    "achievements": ["Achievement 1", "Achievement 2"],
+    "summary": "Zeelo is a bus sharing company functioning as a SaaS platform, build with ReactJS and NodeJS for the frontend.",
+    "responsibilities": [
+      "Building and maintaining features for the in-house agents",
+      "Creating new features for the customer-facing website",
+      "Writing middleware to connect the frontend with the backend"
+    ],
     "stack": ["ReactJS", "TypeScript", "NodeJS", "Storybook"]
   },
   {
@@ -51,9 +56,19 @@
     "type": "On-site",
     "startYear": "2018",
     "endYear": "2020",
-    "summary": "LeoVegas is an online casino provider. My daily job includes developing new features, especially to enhance the game experience for players. I work with React.js, Node.js and GraphQL on a daily basis. Other responsibilities include writing tests for the features we develop, maintain and bug-fix any feature previously released, and close collaboration between designers and BackEnd developers. In my nearly 3 years at LeoVegas, I have gone from junior to senior within the company. I functioned as interim team-lead for 4 months, where I guided the project from start to finish while coding and managing team members and stakeholders.",
-    "responsibilities": ["Highlight 1", "Highlight 2"],
-    "achievements": ["Achievement 1", "Achievement 2"],
+    "summary": "LeoVegas is an online casino provider hosting slot games, live-casino and sportsbetting. The platform is a ReactJS application with a NodeKJS backend connected through a GraphQL API layer.",
+    "responsibilities": [
+      "Maintaining and improving the slot games and live-casino user interfaces for various providers",
+      "Close collaboration with backend developers to improve the API layer",
+      "Implementing various A/B tests to improve user engagement and retention",
+      "Improving the customer-support services by refactoring the chat feature and FAQ section",
+      "Ensuring the ever-changing gambling regulations are implemented correctly"
+    ],
+    "achievements": [
+      "Built and lead the industry first 'Multiplay' feature to play multiple slot games at once",
+      "Created a tournaments feature for the casino platform with real-time leaderboards",
+      "Built in-app questionaires to gather user feedback and improve the product with rewards for users"
+    ],
     "stack": ["ReactJS", "TypeScript", "NodeJS", "Storybook", "GraphQL"]
   }
 ]
