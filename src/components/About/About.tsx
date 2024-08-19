@@ -30,8 +30,8 @@ export const About = () => {
         </li>
         <li>
           <a
-            href="tel:+34 606 650 243"
-            title="Call Joey ter Meulen at +34 606 650 243"
+            href="tel:+34 606 650 423"
+            title="Call Joey ter Meulen at +34 606 650 423"
             target="_blank"
             rel="noopener noreferrer"
           >
