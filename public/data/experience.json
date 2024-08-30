@@ -14,12 +14,13 @@
       "Creating and maintaining CI/CD pipelines in Azure DevOps",
       "Building developer tools to improve the developer experience",
       "Writing extensive documentation for all features in the library",
-      "Maintinging a zero-bug policy for the library",
+      "Maintaining a zero-bug policy for the library",
       "Bi-weekly demos, presentations and workshops for users and stakeholders"
     ],
     "achievements": [
-      "Implementing dark-mode theme for the complete component and styling library",
-      "Complete overhaul of legacy styling library to a new tokenized structure for theming"
+      "<a href='https://www.linkedin.com/posts/activity-7223660545428647936-8Inp' target='blank' rel='noopener noreferrer'>Implementing dark-mode theme</a> for the complete component and styling library",
+      "Complete overhaul of legacy styling library to a new tokenized structure for theming",
+      "<a href='https://www.linkedin.com/posts/michiel_this-coming-tuesday-marks-the-20th-internal-activity-7050185952501096448-ghtI' target='blank' rel='noopener noreferrer'>Recognised</a> for my numerous contributions to the continous Release Train migrations"
     ],
     "stack": [
       "StencilJS",
@@ -40,7 +41,7 @@
     "type": "Remote",
     "startYear": "2021",
     "endYear": "2021",
-    "summary": "Zeelo is a bus sharing company functioning as a SaaS platform, build with ReactJS and NodeJS for the frontend.",
+    "summary": "Zeelo is a bus sharing company functioning as a SaaS platform, built with ReactJS and NodeJS for the frontend.",
     "responsibilities": [
       "Building and maintaining features for the in-house agents",
       "Creating new features for the customer-facing website",

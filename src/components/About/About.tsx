@@ -70,7 +70,7 @@ export const About = () => {
         Over the years, I have gained extensive experience in developing websites using{' '}
         <em>React.js</em>, <em>Node.js</em>, and <em>GraphQl</em>. Recently, my focus has shifted
         towards developing design systems using web components, specifically with{' '}
-        <em>Stencil.js</em> and <em>Lit</em>.
+        <em>Stencil.js</em>, <em>Lit</em> and <em>Sass</em>.
         <br />
         <br />
         With a passion for clean and efficient code, I strive to create user-friendly and visually

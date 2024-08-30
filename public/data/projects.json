@@ -2,9 +2,9 @@
   {
     "name": "ScubiBranches",
     "url": "https://dive-log-next.vercel.app/",
-    "description": "A scuba dive log appliction that allows users to log their dives, view their dive history, and is focused on Nudibranches!",
+    "description": "A scuba dive log application that allows users to log their dives, view their dive history, and is focused on Nudibranches!",
     "notes": [
-      "Build with Next.js v14, using Server Actions with a MongoDB database",
+      "Built with Next.js v14, using Server Actions with a MongoDB database",
       "Next-Auth with Google OAuth for authentication"
     ]
   },
@@ -29,7 +29,7 @@
   {
     "name": "JRC Component Library",
     "url": "https://github.com/JtMeulen/jrc",
-    "description": "My own component library build for fun and for testing purposes.",
+    "description": "My own component library built for fun and for testing purposes.",
     "notes": [
       "Using React and Storybook to create components and custom styling, available through NPM",
       "Theming is available through CSS variables."

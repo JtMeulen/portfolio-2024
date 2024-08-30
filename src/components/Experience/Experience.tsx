@@ -54,7 +54,10 @@ export const Experience = () => {
                       <h4>Achievements:</h4>
                       <ul className={styles.achievements}>
                         {experience.achievements.map((achievement: string) => (
-                          <li key={achievement}>{achievement}</li>
+                          <li
+                            key={achievement}
+                            dangerouslySetInnerHTML={{ __html: achievement }}
+                          ></li>
                         ))}
                       </ul>
                     </>
