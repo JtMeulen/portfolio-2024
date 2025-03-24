@@ -18,17 +18,17 @@
 
 .experience {
   display: grid;
-  grid-template-columns: 90px auto; // First column fixed, second column takes remaining space
+  grid-template-columns: 100px auto; // First column fixed, second column takes remaining space
   list-style: none;
 
   & .timePeriod {
-    padding-inline-end: 1rem;
-    text-align: start;
+    padding-inline-end: 0.5rem;
+    text-align: end;
     grid-column: 1;
-    width: 120px;
+    width: 100px;
 
     & p {
-      text-wrap: wrap;
+      text-wrap: nowrap;
       font-size: 0.8rem;
       margin: 0.1rem 0;
     }
@@ -96,6 +96,7 @@
       grid-row: 1;
       grid-column: 1;
       padding-inline-start: 1rem;
+      text-align: start;
     }
 
     & .content {
