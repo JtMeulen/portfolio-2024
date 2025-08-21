@@ -11,7 +11,7 @@
   {
     "name": "SandraDCM Portfolio",
     "url": "https://www.sandradcm.com/",
-    "description": "A portfolio a 2d game associate art director. The website showcases her work and provides a way for potential clients to contact her.",
+    "description": "A portfolio for a 2D game associate art director. The website showcases her work and provides a way for potential clients to contact her.",
     "notes": [
       "React based website with a custom design and animations",
       "Lots of image hosting and loading through Google Cloud Storage"
