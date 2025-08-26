@@ -1,3 +1,5 @@
+import { Analytics } from '@vercel/analytics/react';
+
 import { About } from '@/components/About/About';
 import { Experience } from '@/components/Experience/Experience';
 import { Projects } from '@/components/Projects/Projects';
@@ -19,6 +21,7 @@ export const MainPage = () => {
       </section>
 
       <ScrollToTop />
+      <Analytics />
     </main>
   );
 };
