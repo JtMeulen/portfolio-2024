@@ -76,6 +76,11 @@ export const About = () => {
         With a passion for clean and efficient code, I strive to create user-friendly and visually
         appealing web applications. I believe in continuous learning and staying up-to-date with the
         latest technologies and best practices in the industry.
+        <br />
+        <br />
+        Outside of being a developer I'mm also a scuba dive enthousiast, and am a certified
+        professional Divemaster. If I'm not behind my laptop, you can find me breathing underwater
+        alongside tropical fish!
       </p>
     </div>
   );
