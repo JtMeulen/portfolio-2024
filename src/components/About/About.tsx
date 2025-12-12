@@ -78,9 +78,9 @@ export const About = () => {
         latest technologies and best practices in the industry.
         <br />
         <br />
-        Outside of being a developer I'mm also a scuba dive enthousiast, and am a certified
-        professional Divemaster. If I'm not behind my laptop, you can find me breathing underwater
-        alongside tropical fish!
+        Outside of being a developer, I'm also an avid scuba diving enthusiast and a certified
+        professional Divemaster. When I'm not behind my laptop, you can usually find me underwater,
+        exploring reefs alongside tropical fish.
       </p>
     </div>
   );
