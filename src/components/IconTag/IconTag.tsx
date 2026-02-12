@@ -8,6 +8,7 @@ import {
   SiSass,
   SiStencil,
   SiStorybook,
+  SiStyledcomponents,
   SiTypescript,
   SiWebdriverio,
 } from 'react-icons/si';
@@ -26,6 +27,7 @@ const ICON_MAP: { [key: string]: JSX.Element } = {
   ReactJS: <SiReact />,
   NodeJS: <SiNodedotjs />,
   GraphQL: <SiGraphql />,
+  'Styled-Components': <SiStyledcomponents />,
 };
 
 export const IconTag = ({ name }: { name: string }) => {

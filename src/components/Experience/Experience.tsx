@@ -1,4 +1,3 @@
-import { Collapsible } from '@/components/Collapsible/Collapsible';
 import { IconTag } from '@/components/IconTag/IconTag';
 import { useData } from '@/hooks/useData';
 
@@ -36,33 +35,30 @@ export const Experience = () => {
                 </p>
                 <h4>Summary:</h4>
                 <section>{experience.summary}</section>
-                {(experience.responsibilities || experience.achievements) && (
-                  <Collapsible>
-                    {experience.responsibilities && experience.responsibilities && (
-                      <>
-                        <h4>Responsibilities:</h4>
-                        <ul className={styles.responsibilities}>
-                          {experience.responsibilities.map((responsibility: string) => (
-                            <li key={responsibility}>{responsibility}</li>
-                          ))}
-                        </ul>
-                      </>
-                    )}
-                    {experience.achievements && experience.achievements && (
-                      <>
-                        <h4>Achievements:</h4>
-                        <ul className={styles.achievements}>
-                          {experience.achievements.map((achievement: string) => (
-                            <li
-                              key={achievement}
-                              dangerouslySetInnerHTML={{ __html: achievement }}
-                            ></li>
-                          ))}
-                        </ul>
-                      </>
-                    )}
-                  </Collapsible>
+                {experience.responsibilities && (
+                  <>
+                    <h4>Responsibilities:</h4>
+                    <ul className={styles.responsibilities}>
+                      {experience.responsibilities.map((responsibility: string) => (
+                        <li key={responsibility}>{responsibility}</li>
+                      ))}
+                    </ul>
+                  </>
                 )}
+                {experience.achievements && (
+                  <>
+                    <h4>Achievements:</h4>
+                    <ul className={styles.achievements}>
+                      {experience.achievements.map((achievement: string) => (
+                        <li
+                          key={achievement}
+                          dangerouslySetInnerHTML={{ __html: achievement }}
+                        ></li>
+                      ))}
+                    </ul>
+                  </>
+                )}
+
                 {experience.stack && (
                   <ul className={styles.stack}>
                     {experience.stack.map((tech: string) => (

@@ -1,4 +1,4 @@
-import { FaEnvelope, FaGithub, FaGlobe, FaLinkedin, FaPhoneAlt } from 'react-icons/fa';
+import { FaEnvelope, FaGithub, FaGlobe, FaLinkedin } from 'react-icons/fa';
 
 import styles from './About.module.scss';
 
@@ -28,7 +28,7 @@ export const About = () => {
             <FaEnvelope />
           </a>
         </li>
-        <li>
+        {/* <li>
           <a
             href="tel:+34 606 650 423"
             title="Call Joey ter Meulen at +34 606 650 423"
@@ -37,7 +37,7 @@ export const About = () => {
           >
             <FaPhoneAlt />
           </a>
-        </li>
+        </li> */}
         <li>
           <a
             href="https://www.linkedin.com/in/joey-ter-meulen-205365120/"
@@ -68,7 +68,7 @@ export const About = () => {
         <br />
         <br />
         Over the years, I have gained extensive experience in developing websites using{' '}
-        <em>React.js</em>, <em>Node.js</em>, and <em>GraphQl</em>. Recently, my focus has shifted
+        <em>React.js</em>, <em>Node.js</em>, and <em>GraphQL</em>. Recently, my focus has shifted
         towards developing design systems using web components, specifically with{' '}
         <em>Stencil.js</em>, <em>Lit</em> and <em>Sass</em>.
         <br />

@@ -1,5 +1,20 @@
 [
   {
+    "company": "MediaMarkt",
+    "url": "https://www.ceconomy-mms.com/en/ceconomy",
+    "position": "Frontend Developer",
+    "location": "Barcelona, Spain",
+    "type": "Hybrid",
+    "startYear": "2026",
+    "endYear": "current",
+    "summary": "Responsible for the in-store apps used by MediaMarkt employees to support and help customers with in-store and online purchases.",
+    "responsibilities": [
+      "Implementing and maintaining new features for the store baskets",
+      "Migrating Angular legacy projects to React"
+    ],
+    "stack": ["ReactJS", "GraphQL", "NodeJS", "Styled-Components"]
+  },
+  {
     "company": "Black Turtle Dive",
     "url": "https://www.blackturtledive.com/",
     "position": "PADI Divemaster",
