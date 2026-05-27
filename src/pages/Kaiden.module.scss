@@ -1,0 +1,83 @@
+
+.main {
+  font-family: "SN Pro", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  padding: 16px;
+  margin-top: -16px;
+  margin-bottom: -16px;
+
+  min-height: 100vh;
+  overflow: scroll;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background: #fdfbf4;
+  color: #39473a;
+
+  p { 
+    margin: 0;
+  }
+}
+
+.imageContainer {
+  width: 250px;
+  height: 350px;
+  position: relative;
+
+  img:first-child {
+    height: 210px;
+    width: 210px;
+    margin: 0 0 6px 20px;
+  }
+
+  img {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+  }
+
+  margin-bottom: 12px;
+}
+
+.title {
+  font-size: 1.4rem;
+  margin: 0 0 0.5rem;
+    text-align: center;
+
+}
+
+.welcome {
+  font-size: 2rem;
+  margin: 1rem 0 0.5rem;
+    text-align: center;
+
+}
+
+.name {
+  font-size: 1.6rem;
+  margin: 0 0 0.5rem;
+    text-align: center;
+
+}
+
+.birthInfo {
+  font-size: 1.2rem;
+  margin-top: 12px;
+}
+
+.infoContainer {
+  margin-top: 16px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.birthInfo, .infoItem {
+  p:first-child {
+    opacity:0.8;
+  }
+}
