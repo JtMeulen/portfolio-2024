@@ -10,7 +10,10 @@
     "summary": "Responsible for the in-store apps used by MediaMarkt employees to support and help customers with in-store and online purchases.",
     "responsibilities": [
       "Implementing and maintaining new features for the store baskets",
-      "Migrating Angular legacy projects to React"
+      "Migrating Angular legacy projects to React",
+      "Responsible for developing a new UI flow for managing user profile sections, including the implementation of new GraphQL queries and mutations.",
+      "Set up and maintain an internal UI component library built with shadcn/ui and Tailwind CSS, establishing reusable components and patterns for application development.",
+      "Develop new features and resolve bugs across the application, contributing to ongoing improvements in functionality, usability, and code quality."
     ],
     "stack": ["ReactJS", "GraphQL", "NodeJS", "Styled-Components"]
   },
